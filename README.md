@@ -1,38 +1,12 @@
-# Gemini Clone
+# React + Vite
 
-A simple AI chat-style web app built with React and Vite that mimics the look and feel of a Gemini-like assistant interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Clean chat-inspired UI
-- Prompt input box with send action
-- Suggested prompt cards
-- Integration with the Google Gemini API for responses
-- Responsive layout for desktop and smaller screens
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tech Stack
+## Expanding the ESLint configuration
 
-- React
-- Vite
-- JavaScript
-- Google GenAI SDK
-
-## Getting Started
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
-3. Open the local URL shown by Vite in your browser.
-
-## Environment Setup
-
-Make sure your Gemini API key is configured in the project before running the app.
-
-## Project Purpose
-
-This project is a frontend clone of a conversational AI assistant interface, designed to practice React state management, API integration, and UI building.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
